@@ -1,0 +1,17 @@
+.inline {
+  display: inline-block;
+  margin: 0.5rem;
+}
+
+/* interface change (b): Line - add a border line with red color 
+around line which displays the featured item and it's price. */
+p.FeaturedLine{
+  border-style: double;
+  border-color: red;
+}
+
+/* interface change (c): Space - add the background color in green as Negative, 
+and leaves the background color for items in white and red as Positive. */
+body{
+  background: rgba(44, 153, 44, 0.3);
+}
